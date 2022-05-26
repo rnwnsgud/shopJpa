@@ -16,5 +16,6 @@ public class OrderItemDto {
         this.itemName = orderItem.getItem().getItemName();
         this.count = orderItem.getCount();
         this.imgUrl = imgUrl;
+        this.orderPrice = orderItem.getOrderPrice();
     }
 }
